@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Contacto</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md fixed-top bg-light">
+		<a class="navbar-brand" href="#">Proyecto Bootstrap</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarExample" aria-controls="navbarExample"
+			aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarExample">
+			<ul class="navbar-nav mr-auto">
+			<li class="nav-item"><a class="nav-link" href="Menu.html">Inicio</a></li>
+				<li class="nav-item"><a class="nav-link" href="Gallery.html">Galeria</a></li>
+				<li class="nav-item"><a class="nav-link" href="Index.html">Salir</a></li>
+			</ul>
+			<form action="" class="form-inline">
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="...">
+				</div>
+				<button type="submit" class="btn btn-outline-info m-2">Buscar</button>
+			</form>
+		</div>
+	</nav>
+
+
+
+	<section id="contact" >
+            <div class="container">
+                <div class="row">
+                    <div class="about_our_company" style="margin-bottom: 20px;">
+                        <h1 style="color:#fff;">Escribe tu mensaje</h1>
+                        <div class="titleline-icon"></div>
+                        <p style="color:#fff;">Responderemos tan pronto como sea posible</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <form name="sentMessage" id="contactForm" novalidate="">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Nombre *" id="name" required="" data-validation-required-message="Nombre">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Email *" id="email" required="" data-validation-required-message="Email">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="tel" class="form-control" placeholder="Numero de telefono (opcional)" id="phone" data-validation-required-message="Numero de telefono (opcional)">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <textarea class="form-control" placeholder="Cuentanos tu problema *" id="message" required="" data-validation-required-message="Cuentanos tu problema"></textarea>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="col-lg-12 text-center">
+                                    <div id="success"></div>
+                                    <button type="submit" class="btn btn-xl get">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-4">
+                        <p style="color:#fff;">
+                            <strong><i class="fa fa-map-marker"></i> Direccion</strong><br>
+                            Calle Barbero de Sevilla, SN
+                        </p>
+                        <p style="color:#fff;"><strong><i class="fa fa-phone"></i> Numero de telefono</strong><br>
+                            955555555</p>
+                        <p style="color:#fff;">
+                            <strong><i class="fa fa-envelope"></i>  Email de contacto</strong><br>
+                            email@info.com</p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+<script src="js/jquery-3.2.1.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
